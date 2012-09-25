@@ -4,10 +4,10 @@ h2. Features
 * A bit tested on jQuery 1.7.2 :)
 
 h2. Usage:
-bc.. puts $('body').lazyLoad({/* options */});
+@$('body').lazyLoad({/* options */});@
 
 h3. Options:
-* @on {string} @ - event; default: scroll
+* @on {string}@ - event; default: scroll
 * @effect {string}@ - effect; default: show
 * @selector {string}@ - image selector; default: [data-original]
 * @attribute {string}@ - origin image path attribute; default: [data-original]
