@@ -12,3 +12,6 @@ h3. Options:
 * @selector {string}@ - image selector; default: [data-original]
 * @attribute {string}@ - origin image path attribute; default: [data-original]
 * @concurrent {number}@ - concurrent image loading number; default: 5
+
+h3. Todo
+* Support hd images
